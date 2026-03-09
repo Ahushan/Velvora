@@ -47,7 +47,8 @@ const PopularProductCard = ({ imgURL, name, price, mrp }) => {
           <Button
             label="Shop Now"
             iconURL={shopify}
-            styles="w-full border border-white hover:text-white hover:bg-black"
+            backgroundColor={'bg-black'}
+            className={'w-full border border-black text-white font-Montserrat hover:border-white'}
           />
         </div>
 

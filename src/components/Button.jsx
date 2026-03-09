@@ -17,10 +17,8 @@ const Button = ({
       font-montserrat text-lg leading-none
       rounded-full
       transition-all duration-300 ease-in-out
-      ${className
-        }
       ${backgroundColor
-          ? `${backgroundColor} ${textColor} ${borderColor}`
+          ? `${backgroundColor} ${textColor} ${borderColor} ${className}`
           : "bg-black text-white border border-white/20 hover:bg-white hover:text-black hover:border-white"
         }
 

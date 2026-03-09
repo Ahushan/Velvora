@@ -10,11 +10,11 @@ const SuperQuality = () => {
       {/* Text Section */}
       <div className="flex flex-col lg:max-w-xl bg-white/90 backdrop-blur-md px-6 sm:px-8 lg:px-10 py-6 lg:py-8 rounded-xl">
 
-        <h2 className="font-palanquin capitalize text-2xl sm:text-3xl lg:text-4xl text-black font-bold leading-tight break-words">
+        <h2 className="font-palanquin capitalize text-2xl sm:text-3xl lg:text-4xl text-black font-bold leading-tight">
           We Provide
-          <span className="underline ml-2">Premium</span>
-          <span className="underline ml-2">Furniture</span>
-          For Modern Living
+          <p className="underline ml-2">Premium</p>
+          <p className="underline font-beauty ml-2">Furniture</p>{' '}
+          <p> For Modern Living</p>
         </h2>
 
         <p className="mt-4 text-black font-montserrat text-sm sm:text-base leading-relaxed">
