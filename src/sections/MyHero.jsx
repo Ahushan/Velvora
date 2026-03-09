@@ -1,11 +1,12 @@
-import { heroImage } from "../assets/images"
+import { hero } from "../assets/images"
+
 
 export const MyHero = () => {
   return (
     <section className="relative w-full h-[600px] overflow-hidden">
 
       <img
-        src={heroImage}
+        src={hero}
         alt="Modern furniture"
         className="w-full h-full object-cover object-center"
       />

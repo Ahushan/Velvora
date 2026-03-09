@@ -1,4 +1,4 @@
-import heroImage from './../images/hero/hero-image-io.jpg'
+import hero from './hero/hero.jpg'
 
 import prod1 from './products/product-1.jpg'
 import prod2 from './products/product-2.jpg'
@@ -17,8 +17,8 @@ import offerImage3 from './offer/offer-image-3.jpg'
 const offerImages = [offerImage1, offerImage2, offerImage3]
 
 export {
-    heroImage,
-
+    hero,
+    
     prod1,
     prod2,
     prod3,
